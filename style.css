@@ -17,3 +17,11 @@ table,th,tr{
 .heading:hover{
     background-color: aqua;
 }
+
+.labels{
+    margin-top: 5px;
+}
+
+input{
+    margin-bottom: 10px;
+}
