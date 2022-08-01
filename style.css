@@ -1,0 +1,19 @@
+.req{
+    color: red;
+}
+table,th,tr{
+    border-collapse: collapse;
+    
+}
+
+.heading{
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 0px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 0, 0, 0.465);
+}
+
+.heading:hover{
+    background-color: aqua;
+}
