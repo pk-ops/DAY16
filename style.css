@@ -1,3 +1,4 @@
+
 .req{
     color: red;
 }
@@ -7,7 +8,7 @@ table,th,tr{
 }
 
 .heading{
-    background-color: #eee;
+    background-color: rgb(11, 11, 11);
     text-align: center;
     padding: 10px 0px ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,3 +26,30 @@ table,th,tr{
 input{
     margin-bottom: 10px;
 }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid yellowgreen;
+    
+    padding: 6px;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+button{ 
+    background-color: rgb(117, 177, 245);
+    border: 1px solid rgb(91, 170, 240);
+    height: 1.8rem;
+    border-radius: 5px;
+    width: 80px;
+}
+
